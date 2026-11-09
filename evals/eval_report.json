@@ -1,0 +1,66 @@
+{
+  "passed": 12,
+  "results": [
+    {
+      "detail": "",
+      "eval": "E1_corpus_shape",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E2_token_estimator",
+      "pass": true
+    },
+    {
+      "detail": "{'bundle_id': 'logs-001', 'content_type': 'logs', 'strategy': 'dedup', 'original_tokens': 10402, 'compressed_tokens': 481, 'savings_pct': 95.38, 'recall': 1.0, 'facts_total': 3, 'facts_kept': 3, 'kept_ids': ['log-unique-number', 'log-updated-value', 'log-low-tfidf'], 'missed_ids': [], 'stale_absent': True}",
+      "eval": "E3_logs_dedup_headline",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E4_rag_dedup_headline",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E5_json_prune_headline",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E6_head_tail_loses_facts",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E7_tfidf_json_loses_facts",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E8_tfidf_logs_rag_recall",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E9_dedup_stale_absent",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E10_json_prune_noop_non_json",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "eval": "E11_determinism",
+      "pass": true
+    },
+    {
+      "detail": "[0, 1, 2]",
+      "eval": "E12_cli_check_exit_codes",
+      "pass": true
+    }
+  ],
+  "total": 12
+}
